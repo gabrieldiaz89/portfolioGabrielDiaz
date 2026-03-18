@@ -1,34 +1,127 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" prefix="og: https://ogp.me/ns#">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ── SEO Principal ── -->
+    <title>Gabriel Diaz — Technical Leader & Backend Developer Java | Mendoza, Argentina</title>
+    <meta name="description" content="Portfolio de Gabriel G. Diaz, Technical Leader y Backend Developer con 6+ años liderando sistemas Java en producción. Especialista en Spring Boot, Microservices, Docker, Kubernetes, BPM/Bonitasoft y CI/CD. Mendoza, Argentina — disponible en modalidad remota.">
+    <meta name="keywords" content="Gabriel Diaz, Technical Leader, Backend Developer, Java, Spring Boot, Microservices, Docker, Kubernetes, BPM, Bonitasoft, JasperReports, Hibernate JPA, REST API, CI/CD, GitLab, Mendoza, Argentina, desarrollador backend, portfolio">
+    <meta name="author" content="Gabriel Gustavo Diaz">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="revisit-after" content="15 days">
+    <link rel="canonical" href="https://gabrieldiaz89.github.io/portfolioGabrielDiaz/">
+
+    <!-- ── Open Graph (Facebook, LinkedIn, WhatsApp) ── -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gabrieldiaz89.github.io/portfolioGabrielDiaz/">
+    <meta property="og:title" content="Gabriel Diaz — Technical Leader & Backend Developer Java">
+    <meta property="og:description" content="Technical Leader y Backend Developer con 6+ años construyendo sistemas Java en producción. Spring Boot, Microservices, Docker, Kubernetes, BPM/Bonitasoft. Mendoza, Argentina.">
+    <meta property="og:image" content="https://gabrieldiaz89.github.io/portfolioGabrielDiaz/perfil_2.jpg">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta property="og:locale" content="es_AR">
+    <meta property="og:site_name" content="Portfolio Gabriel Diaz">
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gabriel Diaz — Technical Leader & Backend Developer Java">
+    <meta name="twitter:description" content="Technical Leader y Backend Developer con 6+ años en producción. Spring Boot, Microservices, Docker, Kubernetes. Mendoza, Argentina.">
+    <meta name="twitter:image" content="https://gabrieldiaz89.github.io/portfolioGabrielDiaz/perfil_2.jpg">
+
+    <!-- ── Schema.org: Person + JobPosting intent ── -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Gabriel Gustavo Diaz",
+        "jobTitle": "Technical Leader / Backend Developer",
+        "description": "Technical Leader y Backend Developer con 6+ años construyendo y liderando sistemas Java en producción. Especialista en Spring Boot, Microservices, Docker, Kubernetes, BPM/Bonitasoft y CI/CD con GitLab.",
+        "url": "https://gabrieldiaz89.github.io/portfolioGabrielDiaz/",
+        "image": "https://gabrieldiaz89.github.io/portfolioGabrielDiaz/perfil_2.jpg",
+        "email": "gabrielgustavodiaz89@gmail.com",
+        "telephone": "+54 261 535-8772",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Las Heras",
+            "addressRegion": "Mendoza",
+            "addressCountry": "AR"
+        },
+        "sameAs": [
+            "https://www.linkedin.com/in/gabriel-gustavo-diaz-0799821a5/",
+            "https://github.com/gabrieldiaz89",
+            "https://www.instagram.com/gabrriel_diaz/",
+            "https://www.facebook.com/gabriel.diaz.9883"
+        ],
+        "knowsAbout": [
+            "Java", "Spring Boot", "Spring MVC", "Spring Security",
+            "Microservices", "REST API", "Hibernate", "JPA",
+            "OAuth2", "JWT", "Docker", "Kubernetes",
+            "CI/CD", "GitLab", "BPM", "BPMN", "Bonitasoft",
+            "JasperReports", "MySQL", "MariaDB", "MongoDB",
+            "JUnit", "Mockito", "Integration Testing",
+            "Agile", "SCRUM", "Technical Leadership"
+        ],
+        "alumniOf": [
+            {
+                "@type": "CollegeOrUniversity",
+                "name": "Universidad del Aconcagua",
+                "address": { "@type": "PostalAddress", "addressLocality": "Mendoza", "addressCountry": "AR" }
+            },
+            {
+                "@type": "EducationalOrganization",
+                "name": "IES Manuel Belgrano",
+                "address": { "@type": "PostalAddress", "addressLocality": "Mendoza", "addressCountry": "AR" }
+            }
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Administración Tributaria Mendoza (ATM)",
+            "address": { "@type": "PostalAddress", "addressLocality": "Mendoza", "addressCountry": "AR" }
+        },
+        "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Technical Leader / Backend Developer",
+            "occupationLocation": {
+                "@type": "Country",
+                "name": "Argentina"
+            },
+            "skills": "Java, Spring Boot, Docker, Kubernetes, Microservices, BPM, Bonitasoft, CI/CD"
+        }
+    }
+    </script>
+
+    <!-- ── Preconnect para performance ── -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="/img/programacion.png" />
-
+    <link rel="shortcut icon" href="img/programacion.png" />
 </head>
 
 <body>
+
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#">Gabriel Diaz</a>
+                <a href="#">Gabriel<span>Diaz</span></a>
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <!--<li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>-->
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()" data-nav="inicio">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()" data-nav="sobremi">Sobre mí</a></li>
+                    <li><a href="#skills" onclick="seleccionar()" data-nav="skills">Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()" data-nav="curriculum">Curriculum</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()" data-nav="contacto">Contacto</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -37,76 +130,101 @@
         </header>
     </div>
 
-    <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="img/perfil 2.jpg" alt="">
-            </div>
-            <h1>Gabriel Diaz</h1>
-            <h2>Software Engineer - Backend Developer </h2>
-            <div class="redes">
-                <a href="https://www.linkedin.com/in/gabriel-gustavo-diaz-0799821a5/" target="_blank"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/gabrriel_diaz/" target="_blank"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.facebook.com/gabriel.diaz.9883" target="_blank"><i
-                        class="fa-brands fa-facebook-f"></i></a>
+    <!-- Barra indicadora de sección activa -->
+    <div class="section-progress-bar"></div>
+    <div class="section-indicator">
+        <span class="section-indicator-dot" data-target="inicio" data-label="Inicio"></span>
+        <span class="section-indicator-dot" data-target="sobremi" data-label="Sobre mí"></span>
+        <span class="section-indicator-dot" data-target="skills" data-label="Skills"></span>
+        <span class="section-indicator-dot" data-target="curriculum" data-label="Curriculum"></span>
+        <span class="section-indicator-dot" data-target="contacto" data-label="Contacto"></span>
+    </div>
 
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio" data-section>
+        <div class="hero-bg-grid"></div>
+        <div class="hero-bg-glow"></div>
+        <canvas id="tech-globe" class="tech-globe"></canvas>
+        <div class="hero" data-reveal="fade-up">
+            <div class="hero-text">
+                <p class="hero-kicker">// Technical Leader · Backend Developer</p>
+                <h1 class="hero-title">Hola, soy <span>Gabriel</span></h1>
+                <p class="hero-subtitle">
+                    <span class="hero-highlight">Desarrollador backend</span> desde
+                    <span class="hero-location">Mendoza,&nbsp;Argentina</span>.
+                </p>
+                <p class="hero-subtitle hero-subtitle-secondary">Construyendo sistemas escalables con foco en calidad.</p>
+                <div class="hero-ctas">
+                    <a href="#contacto" class="btn-primary">Contactame <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#curriculum" class="btn-ghost">Ver curriculum</a>
+                </div>
+            </div>
+
+            <div class="banner-wrap" data-reveal="scale">
+                <div class="contenido-banner">
+                    <div class="banner-glow"></div>
+                    <div class="contenedor-img">
+                        <div class="img-wrapper">
+                            <img src="perfil_2.jpg" alt="Gabriel Diaz">
+                        </div>
+                    </div>
+                    <h1>Gabriel Diaz</h1>
+                    <h2>Technical Leader · Backend Developer · Java · BPM</h2>
+                    <div class="banner-divider"></div>
+                    <div class="redes">
+                        <a class="social linkedin" href="https://www.linkedin.com/in/gabriel-gustavo-diaz-0799821a5/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a class="social instagram" href="https://www.instagram.com/gabrriel_diaz/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="social facebook" href="https://www.facebook.com/gabriel.diaz.9883" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    <a href="#sobremi" class="scroll-hint" aria-label="Scroll abajo">
+        <span></span>
+    </a>
 
     <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Gabriel Diaz.</span> Soy un apasionado <b style="font-family: arial;">Desarrollador
-                    Backend</b> con
-                una sólida formación en ingeniería informática y mas de 6 años de experiencia en el diseño, desarrollo y
-                mantenimiento de sistemas robustos y escalables. Mi enfoque se centra en la creación de soluciones
-                eficientes que
-                mejoran la funcionalidad y el rendimiento de las aplicaciones.</p>
-            <!--<div class="fila">
-                <div class="cole">
-                    <h3>Tareas que realizo</h3>
-                    Desarrollador Backend en la Aministración Tributaria Mendoza desde febrero del 2020 - Presente
-                    Lideré el diseño e implementación de la arquitectura backend para aplicaciones clave, asegurando la eficiencia,
-                    seguridad y escalabilidad del sistema.
-                    Colaboré estrechamente con el equipo de desarrollo para integrar servicios backend con interfaces de usuario y
-                    asegurar una experiencia de usuario fluida.
-                    Optimicé y mejoré continuamente el rendimiento de los sistemas existentes, implementando técnicas eficientes y
-                    resolviendo cuellos de botella.
-                    Mantuve una comunicación constante con los equipos de frontend y otros departamentos para comprender las
-                    necesidades del negocio y traducirlas en soluciones técnicas efectivas.
-                    <br>
-                </div>
-            </div> -->
+    <section id="sobremi" class="sobremi" data-section>
+        <div class="contenido-seccion" data-reveal="fade-up">
+            <div class="section-label">// 01</div>
+            <h2>Sobre mí</h2>
+            <p><span>Hola, soy Gabriel G. Diaz.</span> Technical Leader y Backend Developer con 6+ años construyendo y
+                liderando sistemas Java en producción. Experiencia end-to-end: arquitectura de microservicios, APIs REST,
+                Hibernate/JPA, Spring Security, OAuth2/JWT, Docker, Kubernetes y CI/CD con GitLab. Cultura de calidad real:
+                testing con JUnit/Mockito, integration tests y code review sistemático. He liderado equipos Agile y entregado
+                sistemas que hoy procesan <b>100.000+ expedientes anuales</b> de forma <b>100% digital</b>.</p>
+
             <div class="fila">
                 <!-- datos personales -->
                 <div class="col">
                     <h3>Datos Personales</h3>
                     <ul>
-
-                        <li>
-                            <strong>Teléfono</strong>
-                            +54 261 5358772
-                        </li>
                         <li>
                             <strong>Email</strong>
-                            gabrielgustavodiaz89@gmail.com
+                            <a href="mailto:gabrielgustavodiaz89@gmail.com">gabrielgustavodiaz89@gmail.com</a>
+                        </li>
+                        <li>
+                            <strong>LinkedIn</strong>
+                            <a href="https://www.linkedin.com/in/gabriel-gustavo-diaz-0799821a5/" target="_blank">gabriel-gustavo-diaz</a>
                         </li>
                         <li>
                             <strong>Website</strong>
-                            <a href="https://gabrieldiaz89.github.io/portfolioGabrielDiaz/">Porfolio</a>
+                            <a href="https://gabrieldiaz89.github.io/portfolioGabrielDiaz/">Portfolio</a>
                         </li>
                         <li>
-                            <strong>Dirección</strong>
-                            Las Heras - Mendoza - Argentina
+                            <strong>Ubicación</strong>
+                            Las Heras, Mendoza (Remoto disponible)
                         </li>
                         <li>
                             <strong>Cargo</strong>
-                            <span>TECHNICAL LEADER </span>
+                            <span class="badge-cargo">
+                                <svg class="badge-cargo-border" viewBox="0 0 170 40" preserveAspectRatio="none" aria-hidden="true">
+                                    <polyline points="169,1 169,39 1,39 1,1 169,1" class="badge-bg-line" />
+                                    <polyline points="169,1 169,39 1,39 1,1 169,1" class="badge-hl-line" />
+                                </svg>
+                                <span class="badge-cargo-text">TECHNICAL LEADER</span>
+                            </span>
                         </li>
                     </ul>
                 </div>
@@ -117,346 +235,333 @@
                     <div class="contenedor-intereses">
                         <div class="interes">
                             <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
+                            <span>Juegos</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
+                            <span>Música</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
+                            <span>Viajar</span>
                         </div>
-
                         <div class="interes">
                             <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
+                            <span>Deporte</span>
                         </div>
-
                         <div class="interes">
                             <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
+                            <span>Autos</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
+                            <span>Fotos</span>
                         </div>
-
                     </div>
                 </div>
             </div>
 
-            
-            <button >
-                <a style="color: #fff;" href="https://github.com/gabrieldiaz89/portfolioGabrielDiaz/blob/main/img/CVGGD.pdf" download="Curriculum Vitae - Gabriel Gustavo Diaz.pdf">
-                Descargar CV</a> <i class="fa-solid fa-download"></i>
+            <button>
+                <a style="color: #0f172a; text-decoration: none;" href="CV_GabrielDiaz.pdf" download="CV_GabrielDiaz.pdf">
+                    Descargar CV
+                </a>
+                <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
         </div>
     </section>
 
     <!-- SECCION SKILLS -->
-    <section class="skills" id="skills">
-        <div class="contenido-seccion">
+    <section class="skills" id="skills" data-section>
+        <div class="contenido-seccion" data-reveal="fade-up">
+            <div class="section-label">// 02</div>
             <h2>Skills</h2>
+            <div class="skills-metricas">
+                <div class="bloque-metrica">
+                    <span class="numero" data-count="24" data-suffix="+">0</span>
+                    <span class="etiqueta">Competencias<br>técnicas</span>
+                </div>
+                <div class="bloque-metrica">
+                    <span class="numero" data-count="9">0</span>
+                    <span class="etiqueta">Habilidades de<br>liderazgo</span>
+                </div>
+                <div class="bloque-metrica">
+                    <span class="numero" data-count="8" data-suffix="+">0</span>
+                    <span class="etiqueta">Años de<br>experiencia</span>
+                </div>
+            </div>
             <div class="fila">
-                <!-- Technical Skill -->
+                <!-- Technical Skills -->
                 <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>JAVA</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>Javascript</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>HTML </span>
-
-                    </div>
-                    <div class="skill">
-                        <span>CSS</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>GO</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>Git - GitHub - GitLab </span>
-
-                    </div>
-                    <div class="skill">
-                        <span>Servidores Apache</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>Spring Boot</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>MYSQL - MARIADB - MONGODB</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>SCRUM</span>
+                    <h3>Competencias Técnicas</h3>
+                    <div class="chips">
+                        <span class="chip chip-core">Java 8/11/17</span>
+                        <span class="chip chip-core">Spring Boot</span>
+                        <span class="chip">Spring MVC</span>
+                        <span class="chip">Spring Security</span>
+                        <span class="chip">OAuth2 / JWT</span>
+                        <span class="chip">Hibernate / JPA</span>
+                        <span class="chip chip-core">Microservices</span>
+                        <span class="chip">REST API / JSON</span>
+                        <span class="chip">JUnit / Mockito</span>
+                        <span class="chip">Integration Testing</span>
+                        <span class="chip chip-core">Docker</span>
+                        <span class="chip chip-core">Kubernetes (K8s)</span>
+                        <span class="chip">CI/CD (GitLab CI)</span>
+                        <span class="chip">MySQL / MariaDB</span>
+                        <span class="chip">MongoDB</span>
+                        <span class="chip">Maven / Gradle</span>
+                        <span class="chip">Git (GitHub/GitLab)</span>
+                        <span class="chip chip-core">BPM / BPMN</span>
+                        <span class="chip chip-core">Bonitasoft</span>
+                        <span class="chip">JasperReports</span>
+                        <span class="chip">SAYGES</span>
+                        <span class="chip">Go (Golang)</span>
+                        <span class="chip">Query Optimization</span>
                     </div>
                 </div>
-                <!-- Professional Skills -->
+                <!-- Soft Skills -->
                 <div class="col">
-                    <h3>Soft Skills</h3>
-                    <div class="skill">
-                        <span>Comunicación Clara y Efectiva</span>
-
+                    <h3>Liderazgo y Colaboración</h3>
+                    <div class="chips chips-liderazgo">
+                        <span class="chip">Technical Leadership</span>
+                        <span class="chip">Agile / SCRUM</span>
+                        <span class="chip">Code Review</span>
+                        <span class="chip">Mentoring</span>
+                        <span class="chip">Comunicación clara</span>
+                        <span class="chip">Trabajo en equipo</span>
+                        <span class="chip">Ownership</span>
+                        <span class="chip">Calidad de software</span>
+                        <span class="chip">Aprendizaje continuo</span>
                     </div>
-                    <div class="skill">
-                        <span>Trabajo en Equipo</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>Creatividad</span>
-
-                    </div>
-                    <div class="skill">
-                        <span>Dedicación</span>
-
-                    </div>
-                    <div class="skill"><span>Proyect Management</span></div>
-                    <div class="skill"><span>Adaptabilidad</span></div>
-                    <div class="skill"><span>Aprendizaje Continuo</span></div>
-                    <div class="skill"><span>Compromiso con la Calidad</span></div>
-
                 </div>
             </div>
         </div>
     </section>
 
     <!-- SECCION CURRICULUM -->
-    <section id="curriculum" class="curriculum">
-        <div class="contenido-seccion">
+    <section id="curriculum" class="curriculum" data-section>
+        <div class="contenido-seccion" data-reveal="fade-up">
+            <div class="section-label">// 03</div>
             <h2>Curriculum</h2>
             <div class="fila">
                 <div class="col izquierda">
                     <h3>Educación</h3>
                     <div class="item izq">
-                        <h4>Técnicatura Superior en Telecomunicaciones</h4>
-                        <span class="casa">Instituto Superior Manuel Belgrano</span>
-                        <span class="fecha">2012 - 2014</span>
-                        <p>Durante mi participación en la Técnicatura Superior en Telecomunicaciones, adquirí un sólido
-                            conocimiento en los principios fundamentales de las telecomunicaciones. El programa de
-                            estudios abarcó una amplia variedad de temas como:<br>
-                        <ul style="margin-left: 18px;">
-                            <li>Redes de Comunicación</li>
-                            <li>Sistemas de Transmisión</li>
-                            <li>Telecomunicaciones por Satélite</li>
-                            <li>Protocolos de Comunicación</li>
+                        <div class="item-header">
+                            <h4>Licenciatura en Informática y Desarrollo de Software</h4>
+                            <span class="badge-status badge-finalizado">Finalizado</span>
+                        </div>
+                        <span class="casa">Universidad del Aconcagua</span>
+                        <span class="fecha">2025</span>
+                        <ul class="lista-item">
+                            <li>Algoritmos, estructuras de datos y programación orientada a objetos (Java, Python)</li>
+                            <li>Arquitectura de software, patrones de diseño (GoF) y principios SOLID</li>
+                            <li>Bases de datos relacionales (SQL, modelado ER) y NoSQL</li>
+                            <li>Desarrollo web full-stack: HTML/CSS, JavaScript, frameworks MVC</li>
+                            <li>Ingeniería de software: relevamiento, análisis, diseño y documentación de sistemas</li>
+                            <li>Gestión de proyectos: metodologías ágiles (Scrum, Kanban) y PMI</li>
+                            <li>Testing y QA: pruebas unitarias, integración y aseguramiento de calidad</li>
+                            <li>Redes, seguridad informática y sistemas operativos (Linux/Windows)</li>
+                            <li>Matemática aplicada: álgebra, análisis numérico y estadística</li>
                         </ul>
-
-                        </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>LICENCIATURA EN INFORMÁTICA Y DESARROLLO DE SOFTWARE</h4>
-                        <span class="casa">Universidad del Aconcagua</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>En mi estudios superiores obtuve una comprensión integral de los principios fundamentales de
-                            la ingeniería de software y adquirí habilidades especializadas en el desarrollo de
-                            aplicaciones.</p>
-                        <ul style="margin-left: 18px;">
-                            <li>Programación Avanzada</li>
-                            <li>Diseño de Software</li>
-                            <li>Desarrollo Web y Móvil</li>
-                            <li>Gestión de Proyectos de Software</li>
-                            <li>Pruebas y Garantía de Calidad</li>
+                        <div class="item-header">
+                            <h4>Tecnicatura Superior en Telecomunicaciones</h4>
+                            <span class="badge-status badge-finalizado">Finalizado</span>
+                        </div>
+                        <span class="casa">IES Manuel Belgrano</span>
+                        <span class="fecha">2014</span>
+                        <ul class="lista-item">
+                            <li>Fundamentos de telecomunicaciones: señales analógicas y digitales, modulación y transmisión</li>
+                            <li>Redes de datos: modelo OSI, TCP/IP, switching, routing (OSPF, BGP, RIP)</li>
+                            <li>Infraestructura de redes: cableado estructurado, fibra óptica y enlaces inalámbricos</li>
+                            <li>Telefonía IP (VoIP), centralitas y protocolos SIP/H.323</li>
+                            <li>Redes LAN/WAN/MAN y tecnologías de acceso (ADSL, fibra, 4G)</li>
+                            <li>Seguridad en redes: firewalls, VPN, encriptación y protección perimetral</li>
+                            <li>Sistemas operativos de red: administración de servidores Linux y Windows Server</li>
+                            <li>Electrónica aplicada: circuitos, antenas y equipos de radiofrecuencia</li>
                         </ul>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="col derecha">
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
-                        <h4>Freelancer</h4>
-                        <span class="casa">Freelancer</span>
-                        <span class="fecha">2017 - 2020</span>
-                        <p>Tuve el privilegio de trabajar de manera independiente en diversos proyectos, ofreciendo
-                            soluciones y adaptadas a las necesidades específicas de mis clientes, como Desarrollar
-                            <b>Aplicaciones Personalizadas</b> trabajado en el diseño, desarrollo y entrega de
-                            aplicaciones para clientes de diversos sectores como el gastronómico y comercial utilizando
-                            tecnologías <b>C#, Java y PHP</b> </p>
-
+                        <div class="item-header">
+                            <h4>Technical Leader</h4>
+                            <span class="badge-status">Activo</span>
+                        </div>
+                        <span class="casa">Administración Tributaria Mendoza (ATM)</span>
+                        <span class="fecha">Mar. 2022 – Actualidad</span>
+                        <ul class="lista-item">
+                            <li>Lideré squad de 5 devs bajo Agile/SCRUM reduciendo lead time ↓30% y defectos en producción ↓40%.</li>
+                            <li>Diseñé arquitectura de microservicios con Java + BPM/Bonitasoft para 100.000+ expedientes anuales 100% digital, eliminando trámites presenciales.</li>
+                            <li>Containerizé con Docker y orquesté con Kubernetes, eliminando el 100% de problemas de entorno entre dev y producción.</li>
+                            <li>Optimicé 12+ queries críticas en MySQL/MariaDB con Hibernate/JPA — latencia de reportes reducida 60%.</li>
+                            <li>Establecí cultura de testing con JUnit + Mockito, subiendo cobertura de ~10% a 75% y reduciendo defectos ↓40%.</li>
+                            <li>Lideré migración monolítica a microservicios, reduciendo onboarding de nuevos devs en 35%.</li>
+                            <li>Actué como nexo entre múltiples entidades de la provincia de Mendoza, articulando equipos técnicos y directivos.</li>
+                        </ul>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Analyst - Developer </h4>
+                        <div class="item-header">
+                            <h4>Analyst Developer</h4>
+                            <span class="badge-status badge-inactivo">Inactivo</span>
+                        </div>
                         <span class="casa">Administración Tributaria Mendoza (ATM)</span>
-                        <span class="fecha">2020 - 2022</span>
-                        <p>Mis tareas consistian en:
-                        <ul style="margin-left: 18px;">
-                            <li>Realizar <b>Análisis de procesos</b> colaborando con los stakeholders para comprender la
-                                lógica del negocio</li>
-                            <li><b>Diseñar de Procesos</b> que se adapten a las necesidades del cliente utilizando
-                                herramienta <b>BPM </b>para modelar procesos de negocio, como diagramas de flujo o
-                                notación <b>BPMN</b></li>
-                            <li><b>Desarrollar de Aplicaciones</b> utilizando tecnologías <b>BPM - Java - HTML - CSS</b>
-                            </li> para desarrollar aplicaciones que automatizan y gestionan procesos de negocio.
-                            <li><b>Integrar distintos Sistemas</b> asegurando una comunicación fluida entre diferentes
-                                aplicaciones y plataformas </li>
-                            <li>Realizar <b>Pruebas y Depuración </b>exhaustivas para garantizar que los procesos
-                                automatizados funcionen correctamente.</li>
-                            <li>Proporcionar <b>Capacitación</b> a los usuarios finales sobre la utilización de las
-                                aplicaciones.</li>
-                            <li><b>Supervisar</b> el rendimiento de los procesos automatizados y realizar ajustes según
-                                sea necesario.</li>
-
+                        <span class="fecha">Ene. 2020 – Feb. 2022</span>
+                        <ul class="lista-item">
+                            <li>Automaticé 20+ procesos con Java + BPM/BPMN eliminando 200+ horas/mes de trabajo manual, habilitando gestión 100% online.</li>
+                            <li>Integré 5 sistemas legacy mediante REST APIs en Java, logrando interoperabilidad entre plataformas de recaudación, gestión y reporting.</li>
+                            <li>Entregué apps Java/BPM usadas por 300+ empleados con cero incidentes críticos en los primeros 6 meses.</li>
+                            <li>Diseñé modelo MySQL normalizado con JPA para procesos tributarios de regalías de alto volumen.</li>
+                            <li>Suite de integration tests detectó 23 bugs críticos antes del go-live, evitando incidentes en producción.</li>
                         </ul>
-                        </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>TECHNICAL LEADER</h4>
-                        <span class="casa">Administración Tributaria Mendoza (ATM)</span>
-                        <span class="fecha">2022 - Actualidad</span>
-                        <p>Mis tareas consistian en:
-                        <ul style="margin-left: 18px;">
-                            <li><b>Dirigir y motivar</b> a equipos técnicos, asignar tareas y responsabilidades de
-                                manera efectiva fomentando un entorno colaborativo y estimulante,</li>
-                            <li><b>Supervisar</b> el ciclo de vida completo de proyectos, desde la concepción hasta la
-                                entrega</li>
-                            <li>Participar en la <b>definición y diseño de la arquitectura de software</b>, asegurando
-                                soluciones técnicas sólidas y escalables.</li>
-                            <li><b>Resolver</b> desafíos técnicos y orientar al equipo en la resolución de problemas
-                                complejos</li>
-                            <li>Proporcionar <b>orientación técnica y apoyo</b> a los miembros del equipo, fomentando su
-                                crecimiento profesional.</li>
-                            <li>Implementar estándares de calidad y buenas prácticas de desarrollo de software como
-                                <b>CLEAN CODE</b></li>
-                            <li>Facilitar la comunicación clara y efectiva entre los miembros del equipo y otros
-                                departamentos</li>
-                            <li><b>Identifiqué y solucioné</b> problemas complejos relacionados con la infraestructura
-                                de sistemas, redes y hardware</li>
-                            <li>Realicé <b>análisis de rendimiento</b> en la infraestructura existente, identificando
-                                cuellos de botella y proponiendo mejoras</li>
-                            <li><b>Identificar y resolver</b> de manera proactiva problemas en bases de datos,
-                                incluyendo rendimiento lento, bloqueos y errores de integridad</li>
+                        <div class="item-header">
+                            <h4>Programador Líder de Área</h4>
+                            <span class="badge-status">Activo</span>
+                        </div>
+                        <span class="casa">Partner Tecnológico · Colaboración con Universidad del Aconcagua</span>
+                        <span class="fecha">2020 – Actualidad</span>
+                        <ul class="lista-item">
+                            <li>Lideré el área de desarrollo en proyectos de automatización, articulando equipo técnico y stakeholders.</li>
+                            <li>Coordiné equipos mixtos bajo Agile, con entregas iterativas alineadas a objetivos.</li>
+                            <li>Desarrollé soluciones con Java / Spring Boot / BPM integradas a sistemas existentes.</li>
                         </ul>
-
-                        </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCION PORTFOLIO -->
-    <!--
-    <section id="portfolio" class="portfolio">
-        <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
-            <div class="galeria">
-                <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p4.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p6.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                    <div class="item der">
+                        <div class="item-header">
+                            <h4>Backend Developer Freelance</h4>
+                            <span class="badge-status badge-pendiente">En espera</span>
+                        </div>
+                        <span class="casa">Proyectos para PYMEs</span>
+                        <span class="fecha">2017 – Dic. 2019</span>
+                        <ul class="lista-item">
+                            <li>Diseñé y entregué 10+ aplicaciones (Java, C#, PHP/Laravel) para sectores gastronómico y comercial.</li>
+                            <li>Migré 500.000+ registros de Excel a MySQL con scripts/ETL sin pérdida de datos.</li>
+                            <li>Reduje en promedio 70% el tiempo de gestión operativa mediante digitalización de procesos.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
--->
-    <!-- SECCION CONTACTO -->
-    <section id="contacto" class="contacto">
-        <div class="contenido-seccion">
-            <h2>CONTACTO</h2>
-            <div class="fila">
-                <!-- Formulario -->
+
+            <div class="fila-idiomas" style="margin-top: 20px;">
                 <div class="col">
-                    <input type="text" id="nombreInput" placeholder="Tú Nombre">
-                    <input type="tel" id="numeroTelefonoInput" placeholder="Número telefónico">
-                    <input type="email" id="correoInput" placeholder="Dirección de correo">
-                    <input type="text" id="asuntoInput" placeholder="Tema">
-                    <textarea name="" id="mensajeInput" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <h3>Idiomas</h3>
+                    <div class="idiomas-grid">
+                        <div class="idioma-card">
+                            <span class="idioma-bandera">🇦🇷</span>
+                            <span class="idioma-nombre">Castellano</span>
+                            <span class="idioma-nivel">Nativo</span>
+                            <div class="idioma-barra"><div class="idioma-barra-fill" style="width:100%"></div></div>
+                        </div>
+                        <div class="idioma-card">
+                            <span class="idioma-bandera">🇺🇸</span>
+                            <span class="idioma-nombre">Inglés</span>
+                            <span class="idioma-nivel">B1–B2 Intermedio</span>
+                            <div class="idioma-barra"><div class="idioma-barra-fill" style="width:65%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto" data-section>
+        <div class="contenido-seccion" data-reveal="fade-up">
+            <div class="section-label">// 04</div>
+            <h2>Contacto</h2>
+            <div class="contacto-layout">
+                <!-- Info izquierda -->
+                <div class="contacto-info">
+                    <p class="contacto-intro-text">¿Tenés un proyecto o propuesta? Escribime.</p>
+                    <div class="contacto-datos">
+                        <div class="contacto-dato">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:gabrielgustavodiaz89@gmail.com">gabrielgustavodiaz89@gmail.com</a>
+                        </div>
+                        <div class="contacto-dato">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            <a href="https://www.linkedin.com/in/gabriel-gustavo-diaz-0799821a5/" target="_blank">gabriel-gustavo-diaz</a>
+                        </div>
+                        <div class="contacto-dato">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Las Heras, Mendoza — Remoto disponible</span>
+                        </div>
+                    </div>
+                    <a href="CV_GabrielDiaz.pdf" download class="btn-cv-download">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                        Descargar CV
+                    </a>
+                </div>
+                <!-- Formulario derecha -->
+                <div class="contacto-form">
+                    <div class="contacto-fila-inputs">
+                        <div class="form-group">
+                            <label for="nombreInput">Nombre</label>
+                            <input type="text" id="nombreInput" placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="correoInput">Email</label>
+                            <input type="email" id="correoInput" placeholder="tu@email.com">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="asuntoInput">Asunto</label>
+                        <input type="text" id="asuntoInput" placeholder="¿De qué se trata?">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensajeInput">Mensaje</label>
+                        <textarea id="mensajeInput" rows="4" placeholder="Tu mensaje..."></textarea>
+                        <input type="hidden" id="numeroTelefonoInput" value="">
+                    </div>
                     <button onclick="enviarCorreo()">
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        Enviar mensaje <i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>
-                <!-- Mapa -->
-
             </div>
         </div>
     </section>
 
-    <!-- footer -->
+    <!-- FOOTER -->
     <footer>
-        <a href="#inicio" class="arriba">
+        <a href="#inicio" class="arriba" aria-label="Volver arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
+        <div class="footer-logo">Gabriel<span>Diaz</span></div>
         <div class="redes">
-            <a href="https://www.linkedin.com/in/gabriel-gustavo-diaz-0799821a5/" target="_blank"><i
-                    class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/gabrriel_diaz/" target="_blank"><i
-                    class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.facebook.com/gabriel.diaz.9883" target="_blank"><i
-                    class="fa-brands fa-facebook-f"></i></a>
-
+            <a class="social linkedin" href="https://www.linkedin.com/in/gabriel-gustavo-diaz-0799821a5/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a class="social instagram" href="https://www.instagram.com/gabrriel_diaz/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a class="social facebook" href="https://www.facebook.com/gabriel.diaz.9883" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
+        <p class="footer-copy">© 2025 Gabriel G. Diaz — Las Heras, Mendoza</p>
     </footer>
 
     <script src="script.js"></script>
-
-
-
 </body>
-
 </html>
